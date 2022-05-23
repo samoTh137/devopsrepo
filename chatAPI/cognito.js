@@ -6,7 +6,7 @@ const jwt = require("jsonwebtoken");
 
 let pems;
 const axiosRequestConfig = {headers: {'content-type': 'application/x-www-form-urlencoded'}};
-const callbackUrl = 'http://localhost:8000/callback.html';
+const callbackUrl = 'http://localhost:80/callback.html';
 const cognitoAuthUrl = 'https://devops-up.auth.eu-central-1.amazoncognito.com/'; 
 const cognitoClientId = '76am19mg5mfq0f2c4b08pkd4p6';
 const cognitoUserPoolId = 'eu-central-1_Ba7HUJHI5';
