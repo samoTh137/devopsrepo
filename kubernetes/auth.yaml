@@ -14,7 +14,7 @@ spec:
       containers:
       - name: auth
         imagePullPolicy: IfNotPresent
-        image: massin2002/devops_auth:latest
+        image: thomasagterhuis/chatapp:authapi
         ports:
           - containerPort: 3000
             name: http-web-svc
