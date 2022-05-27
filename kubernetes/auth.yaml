@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: auth
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         image: thomasagterhuis/chatapp:authapi
         ports:
           - containerPort: 3000
