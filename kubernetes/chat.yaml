@@ -22,12 +22,12 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: chat
+  name: static
 spec:
   selector:
     app: chat
   ports:
-  - name: chat
+  - name: static
     protocol: TCP
     port: 3000
     targetPort: http-web-svc
